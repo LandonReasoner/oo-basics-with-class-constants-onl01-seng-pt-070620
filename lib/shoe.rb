@@ -9,7 +9,7 @@ class Shoe
     BRANDS <<  brand
   end
 
-  def unique_brands(BRANDS)
+  def unique_brands(brand)
     BRANDS.uniq!
   end
 
